@@ -1,6 +1,6 @@
 body {
     background-image: linear-gradient(to right, blue, purple);
-    font: normal 15pt arial;
+    font: normal 15%arial;
     color: rgb(255, 0, 128);
     text-align: center;
 } 
@@ -13,20 +13,21 @@ h1{
     font: normal 30pt fantasy;
     border: 0px;
     border-radius: 20px;
-    width: 450px;
+    width: 50%;
     height: 70px;
     cursor: pointer;
 }
-pre{
-    font: normal 20pt arial;
+p{
+    font: normal 1420% arial;
 }
 p#button {
-    padding-top: 230px;
+    padding-top: 10%;
     bottom: 0;
 }
 p#copy{
     position: fixed;
     bottom: 0;
     left: 0;
-    margin: 10px;
+    margin: 1%;
+    font: normal 1400% arial;
 }
