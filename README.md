@@ -1,1 +1,3 @@
 # Blibioteca
+Este é o meu novo projeto, terminado agora literalmente, n sei se ele esta porco, no maximo desarrumado mas eu me dediquei umas 4 a 6 horas para completar, espero que gostem, as explicacoes eu peguei do nosso amiguinho gpt, mas a que dei control C, control V foi nos texto de explicacao, para quem esta lendo, eu pesso que olhe, pois e o primeiro projeto que integro paginas.
+Eu pesso que quem esta lendo, que me dem dicas para melhorar ou sugestoes para acrecentar, este e mais um projeto pronto para ser jugado, e eu espero que gostem. Quer ver o site clique aqui: https://luiz883la.github.io/Blibioteca/
