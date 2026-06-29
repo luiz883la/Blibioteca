@@ -1,0 +1,32 @@
+body {
+    background-image: linear-gradient(to right, blue, purple);
+    font: normal 15pt arial;
+    color: rgb(255, 0, 128);
+    text-align: center;
+} 
+h1{
+    text-align: center;
+    font: normal 30pt fantasy;
+}
+.button_start{
+    background-image: linear-gradient(to right, rgb(183, 0, 255), rgb(255, 0, 43));
+    font: normal 30pt fantasy;
+    border: 0px;
+    border-radius: 20px;
+    width: 450px;
+    height: 70px;
+    cursor: pointer;
+}
+pre{
+    font: normal 20pt arial;
+}
+p#button {
+    padding-top: 230px;
+    bottom: 0;
+}
+p#copy{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    margin: 10px;
+}
