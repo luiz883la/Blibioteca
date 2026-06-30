@@ -1,0 +1,132 @@
+
+
+
+body {
+    background-image: linear-gradient(to right, rgb(255, 0, 255), rgb(0, 174, 255));padding-left: 10px;
+}
+h1{
+    font:normal 130% fantasy;
+    text-align: center;
+}hr{
+    width: 97%;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 110%;
+}
+a{
+    color: pink;
+}
+.menu{
+    position: absolute;
+    padding-left: 10px;
+    background: rgb(153, 0, 133);
+    border-radius: 20px;
+    width: 88.8%;
+    height: 95%;
+}
+.ico{
+    width: 3%;
+}
+.voltar{
+    position: absolute;
+    top: 3%;
+    width: 5%;
+    background: rgba(19, 19, 19, 0.233);
+    border-radius: 50%;
+    cursor: pointer;
+}.titulo{
+    font-size: 200%;
+}
+.pesquisa{
+    font:normal 150% arial;
+    background-image: linear-gradient(to bottom right, rgb(114, 0, 167), rgb(240, 2, 208));
+    position: absolute;
+    top: 5%;
+    right: 2.5%;
+    width: 89%;
+    height: 8%;
+    border-radius: 10px;
+    border: solid, 2px, black;
+}
+.lines{
+    cursor: pointer;
+    position: absolute;
+    top: 5%;
+    left: 1%;
+    border: solid, 2px, black;
+    width: 5%;
+}
+.menuOP{
+    position: absolute;
+    top: 17%;
+    right: 1%;
+    font: normal 150% arial;
+    background-image: linear-gradient(to bottom left, rgb(114, 0, 167), pink);
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 25px;
+    padding-bottom: 10px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 93%;
+}
+.opt{
+    background: white;
+    padding-left: 10px;
+    padding-right: 15px;
+    cursor: pointer;
+    width: 98%;
+    height: 5%;
+    border: solid, 2px, black;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.tituloOP{
+    display: block;
+    color: rgb(0, 0, 0) ;
+    font:normal 150% arial;
+}
+.dica{
+    display: block;
+    right: 50px;
+    font:normal 100% arial;
+    width: 30%;
+}
+.acessar{
+    width: 10%;
+    height: 10%;
+}
+
+@media (max-width: 768px) {
+    .lines {
+        width: 12%;
+    }
+    .acessar{
+        width: 12%;
+    }
+    .menuOP{
+        width: 90%;
+        height: auto;
+        padding-left: 6px;
+    }
+    .pesquisa{
+        width: 76%;
+    }.voltar{
+        width: 15%;
+    }menu{
+        width: 600%;
+    }p{
+        font-size: 150%;
+        white-space: pre-line;
+    }.titulo{
+        font-family: fantasy;
+        font-size: 200%;
+    }
+}
